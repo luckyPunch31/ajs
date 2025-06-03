@@ -1,0 +1,19 @@
+{
+  "name": "@luckypunch31/ajs",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "https://github.com/luckyPunch31/ajs.git"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luckyPunch31/ajs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luckyPunch31/ajs/issues"
+  },
+  "homepage": "https://github.com/luckyPunch31/ajs#readme",
+  "description": ""
+}
