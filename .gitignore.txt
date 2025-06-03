@@ -2,7 +2,6 @@
 Thumbs.db*
 .DS_Store*
 HELP.md
-dist
 doc
 
 # Logs
@@ -74,8 +73,6 @@ typings/
 # nuxt.js build output
 .nuxt
 
-# vuepress build output
-.vuepress/dist
 
 # Serverless directories
 .serverless/
