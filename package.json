@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "dist/index.js",
   "scripts": {
-    "test": "https://github.com/luckyPunch31/ajs.git"
+    "build": "webpack --mode production"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,17 @@
     "url": "https://github.com/luckyPunch31/ajs/issues"
   },
   "homepage": "https://github.com/luckyPunch31/ajs#readme",
-  "description": ""
+  "publishConfig": {
+        "registry": "https://npm.pkg.github.com/"
+      },
+
+  "description": "",
+  "devDependencies": {
+    "@babel/cli": "^7.27.2",
+    "@babel/core": "^7.27.4",
+    "@babel/preset-env": "^7.27.2",
+    "babel-loader": "^10.0.0",
+    "webpack": "^5.99.9",
+    "webpack-cli": "^6.0.1"
+  }
 }
